@@ -1,0 +1,7 @@
+arb-dir: lib/src/shared/l10n
+template-arb-file: app_es.arb
+output-localization-file: app_localizations.dart
+output-class: AppLocalizations
+output-dir: lib/src/shared/l10n
+preferred-supported-locales: [es]
+use-deferred-loading: false

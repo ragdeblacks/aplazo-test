@@ -1,0 +1,151 @@
+{
+  "@@locale": "es",
+  "appTitle": "Cocinando con Flow",
+  "bienvenidoTitulo": "¡Bienvenido a Cocinando con Flow!",
+  "bienvenidoDescripcion": "La aplicación está configurada para el environment: {environment}",
+  "@bienvenidoDescripcion": {
+    "placeholders": {
+      "environment": {
+        "type": "String"
+      }
+    }
+  },
+  "sistemaFlavorsTitulo": "✅ Sistema de Flavors",
+  "sistemaFlavorsDescripcion": "Development, Staging y Production configurados",
+  "configuracionEnvironmentTitulo": "✅ Configuración de Environment",
+  "configuracionEnvironmentDescripcion": "URLs de API, logging y analytics por flavor",
+  "temasDinamicosTitulo": "✅ Temas Dinámicos",
+  "temasDinamicosDescripcion": "Colores y estilos adaptados por environment",
+  "configuracionBaseDatosTitulo": "✅ Configuración de Base de Datos",
+  "configuracionBaseDatosDescripcion": "Parámetros optimizados por environment",
+  "sistemaLoggingTitulo": "✅ Sistema de Logging",
+  "sistemaLoggingDescripcion": "Configuración adaptativa por environment",
+  "informacionBuildTitulo": "Información del Build:",
+  "version": "Versión: {version}",
+  "@version": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "build": "Build: {build}",
+  "@build": {
+    "placeholders": {
+      "build": {
+        "type": "String"
+      }
+    }
+  },
+  "environment": "Environment: {environment}",
+  "@environment": {
+    "placeholders": {
+      "environment": {
+        "type": "String"
+      }
+    }
+  },
+  "logging": "Logging: {estado}",
+  "@logging": {
+    "placeholders": {
+      "estado": {
+        "type": "String"
+      }
+    }
+  },
+  "analytics": "Analytics: {estado}",
+  "@analytics": {
+    "placeholders": {
+      "estado": {
+        "type": "String"
+      }
+    }
+  },
+  "habilitado": "Habilitado",
+  "deshabilitado": "Deshabilitado",
+  "api": "API: {url}",
+  "@api": {
+    "placeholders": {
+      "url": {
+        "type": "String"
+      }
+    }
+  },
+  "aplicacionIniciando": "💡 Aplicación iniciando...",
+  
+  "recetasTitulo": "Recetas",
+  "recetasDescripcion": "Descubre deliciosas recetas",
+  "recetaNoEncontrada": "Receta no encontrada",
+  "ingredientes": "Ingredientes",
+  "instrucciones": "Instrucciones",
+  "agregarFavoritos": "Agregar a favoritos",
+  "quitarFavoritos": "Quitar de favoritos",
+  "favoritos": "Favoritos",
+  "buscarRecetas": "Buscar recetas",
+  "buscarPlaceholder": "Buscar por nombre de receta...",
+  "sinResultados": "No se encontraron resultados",
+  "cargando": "Cargando...",
+  "errorCargar": "Error al cargar",
+  "reintentar": "Reintentar",
+  "detalleReceta": "Detalle de receta",
+  "categoria": "Categoría",
+  "area": "Área",
+  "tiempoPreparacion": "Tiempo de preparación",
+  "dificultad": "Dificultad",
+  "porciones": "Porciones",
+
+  "homeHeaderTitulo": "Cocinando",
+  "homeHeaderSubtitulo": "Con Flow",
+  "homeNoRecetas": "No hay recetas",
+  "homeMostrarMas": "Mostrar más recetas",
+  "homePlaceholderImagen": "https://via.placeholder.com/80x80",
+  "homeBotonBusqueda": "Búsqueda",
+  "homeErrorCargar": "Error al cargar recetas",
+ 
+  "busquedaHintText": "Buscar recetas...",
+  "busquedaNoResultados": "No se encontraron recetas",
+  "busquedaIngresarTermino": "Ingresa un término para buscar",
+  "busquedaPlaceholderImagen": "https://via.placeholder.com/80x80",
+  "busquedaInvitacion": "¿Qué tal si buscas tu receta favorita?",
+  "busquedaNoExiste": "Parece que esa receta no existe, revisa si el nombre es correcto.",
+
+  "detalleTitulo": "Detalle de Receta",
+  "detalleVolverListado": "Volver al listado",
+  "detallePlaceholderImagen": "https://via.placeholder.com/80x80",
+
+  "errorNoConexion": "No hay conexión a internet",
+  "errorRecetaNoEncontrada": "Receta no encontrada",
+  "errorCargarDetalle": "Error al cargar detalle: {error}",
+  "@errorCargarDetalle": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "errorAgregarFavoritos": "Error al agregar a favoritos: {error}",
+  "@errorAgregarFavoritos": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "errorQuitarFavoritos": "Error al quitar de favoritos: {error}",
+  "@errorQuitarFavoritos": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "errorBusqueda": "Error en búsqueda: {error}",
+  "@errorBusqueda": {
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+  "reintentar": "Reintentar"
+}
