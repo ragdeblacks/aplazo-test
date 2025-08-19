@@ -120,7 +120,20 @@ flutter gen-l10n
 # Correr sobre emularor o dispositivo 
 flutter run --flavor development
 
+### **📱 Instalación del APK generado**
 ```
+### **Artefacto generado disponible en la raiz del proyecto en formato apk**
+
+```
+app-development-release.apk
+```
+
+**Para instalar en tu dispositivo:**
+1. Transfiere el APK a tu teléfono Android
+2. Habilita "Instalar apps de fuentes desconocidas" en Configuración > Seguridad
+3. Toca el archivo APK para instalarlo
+
+**Nota**: El APK de development incluye logs y debugging, ideal para testing pero no para distribución final.
 
 ## **Despliegue en iOS - Configuraciones Necesarias**
 
@@ -218,12 +231,15 @@ flutter run --flavor development
 
 # Build APK para desarrollo
 flutter build apk --flavor development
+# 📱 APK generado: build/app/outputs/flutter-apk/app-development-release.apk
 
 # Build APK para staging
 flutter build apk --flavor staging
+# 📱 APK generado: build/app/outputs/flutter-apk/app-staging-release.apk
 
 # Build APK para producción
 flutter build apk --flavor production
+# 📱 APK generado: build/app/outputs/flutter-apk/app-production-release.apk
 
 # Build App Bundle para producción (recomendado para Play Store)
 flutter build appbundle --flavor production
@@ -235,6 +251,30 @@ flutter build appbundle --flavor production
 - **Development**: Logs detallados, debugging habilitado
 - **Staging**: Logs moderados, algunas validaciones
 - **Production**: Logs mínimos, todas las validaciones, optimizaciones
+
+### **Solución de problemas comunes**
+
+#### **Error de NDK Android**
+Si ves este error al hacer build:
+```
+Your project is configured with Android NDK 26.3.11579264, but the following plugin(s) depend on a different Android NDK version
+```
+
+**Solución**: Ya está configurado en `android/app/build.gradle.kts` con la versión correcta `27.0.12077973`.
+
+#### **Error de dependencias de Google Play**
+Si ves este error:
+```
+ERROR: Missing class com.google.android.play.core.splitcompat.SplitCompatApplication
+```
+
+**Solución**: Ya están agregadas las dependencias necesarias en el build.gradle.kts.
+
+#### **Si sigues teniendo problemas**
+1. **Limpia el proyecto**: `flutter clean`
+2. **Reinstala dependencias**: `flutter pub get`
+3. **Verifica que tienes la última versión de Flutter**: `flutter doctor`
+4. **Asegúrate de tener Android SDK actualizado**
 
 
 ### **Notas importantes**
