@@ -219,6 +219,14 @@ flutter run --flavor development
 # Build APK para desarrollo
 flutter build apk --flavor development
 
+# Build APK para staging
+flutter build apk --flavor staging
+
+# Build APK para producción
+flutter build apk --flavor production
+
+# Build App Bundle para producción (recomendado para Play Store)
+flutter build appbundle --flavor production
 ```
 
 ### **Consideraciones de seguridad para producción**
