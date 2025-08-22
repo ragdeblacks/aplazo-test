@@ -1,0 +1,10 @@
+#include "Generated.xcconfig"
+
+// Staging configuration
+PRODUCT_BUNDLE_IDENTIFIER = com.example.cocinando_con_flow.stg
+PRODUCT_NAME = Cocinando Con Flow Stg
+DISPLAY_NAME = Cocinando Stg
+ENVIRONMENT = staging
+API_BASE_URL = https://api-stg.cocinandoflow.com
+ENABLE_LOGGING = true
+ENABLE_ANALYTICS = true

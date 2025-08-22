@@ -1,0 +1,10 @@
+#include "Generated.xcconfig"
+
+// Development configuration
+PRODUCT_BUNDLE_IDENTIFIER = com.example.cocinando_con_flow.dev
+PRODUCT_NAME = Cocinando Con Flow Dev
+DISPLAY_NAME = Cocinando Dev
+ENVIRONMENT = development
+API_BASE_URL = https://api-dev.cocinandoflow.com
+ENABLE_LOGGING = true
+ENABLE_ANALYTICS = false
